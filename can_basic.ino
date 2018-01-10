@@ -1,4 +1,5 @@
-
+/*this is .c file for can sanding and receving data.
+*/
 #include "mcp_can.h"
 #include <SPI.h>
 

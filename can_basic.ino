@@ -23,6 +23,8 @@ void setup() {
 pinMode(2,INPUT);
 
 //digitalWrite(2,LOW,HIGH)
+
+// how are you
 }
 
 unsigned char opened[]={'1','2'};
@@ -136,12 +138,3 @@ CAN.sendMsgBuf(0x04, 0, 1, &closed);
 }  
 
 */
-
-
-
-
-
-
-
-
-

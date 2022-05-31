@@ -11,6 +11,10 @@ void singledoor();
 void setup() {
   DDRC=0x00;
   //PORTB=0x00;
+  //hi hello DDRC used direction of port
+  
+  // shekAr
+  
   // put your setup code here, to run once:
   Serial.begin(115200);
    while (CAN_OK != CAN.begin(CAN_500KBPS))              // init can bus : baudrate = 500k

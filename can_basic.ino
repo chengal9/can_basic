@@ -101,7 +101,7 @@ CAN.sendMsgBuf(0x02, 0, 1, &closed);
   temp2=0;
         
     }
-
+// Door_status# 3
  
 if(((PINB&(1<<2))==0)&&(temp3==0))
 {
